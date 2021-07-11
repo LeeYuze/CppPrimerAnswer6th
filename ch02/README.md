@@ -80,7 +80,7 @@ int prune(void);
 > <br /> cout << "Please enter your PIN：";
 > <br />而编译器指出cout是个未知标识符。导致这种问题的原因很有可能是什么？指出3种修复这种问题的方法。
 ```
-导致这种问题的原因很有可能是，没有引用iostream头文件并且使用std命名空间，或者引用了却没有使用std命名空间。
+导致这种问题的原因很有可能是，没有引用iostream头文件并且没有使用std命名空间，或者引用了却没有使用std命名空间。
 
 假设都引用头文件的情况下
 #include<iostream>
